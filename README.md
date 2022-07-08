@@ -8,5 +8,5 @@ docker build -t aiservice .
 
 ## Run
 ```bash
-docker run -it --publish 443:443 aiservice
+docker run -it --publish 5000:5000 aiservice
 ```
